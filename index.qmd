@@ -1,5 +1,5 @@
 ---
-title: "My E-Portfolio"
+title: "Sarah Kopitz"
 image: images/MGEM_logo.png
 about:
   template: trestles
@@ -16,7 +16,7 @@ about:
       href: https://github.com/ramonmelser
     - icon: envelope-at
       text: Email
-      href: mailto:melser@student.ubc.ca
+      href: mailto:snkopitz@gmail.com
 ---
 
 Hey there people,

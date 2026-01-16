@@ -3,15 +3,13 @@ project:
   output-dir: C:\Users\skopitz.stu\OneDrive - UBC\Documents\GitHub\E-Portfolio
 
 website:
-  title: "Your E-Portfolio"
+  title: "Sarah Kopitz"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: resume.qmd
         text: Resume
-      - href: publications.qmd
-        text: Publications
       - href: content.qmd
         text: Content & Deliverables
 

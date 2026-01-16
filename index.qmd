@@ -1,26 +1,22 @@
 ---
 title: "Sarah Kopitz"
-image: images/MGEM_logo.png
+image: images/IMG_9871.jpg
 about:
   template: trestles
   image-width: 20em
   links: 
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/ramon-melser-666932129/
-    - icon: twitter
-      text: Twitter/X
-      href: https://x.com/MelserRamon
+      href: https://www.linkedin.com/in/sarah-kopitz-7942623a2/
     - icon: github
       text: GitHub
-      href: https://github.com/ramonmelser
+      href: https://github.com/skopitz 
     - icon: envelope-at
       text: Email
       href: mailto:snkopitz@gmail.com
 ---
 
-Hey there people,
+## About me
 
-This is your E-Portfolio landing page. Be sure to upload a professional headshot of yourself, and provide the appropriate links to your professional social media (linkedin, X/Twitter, etc). This is also a good place to provide a short summary of your education, career and interests. If you are associated with a lab or working with a research supervisor, it may be appropriate to provide some information on that here, along with links to relevant websites.
 
-Write something about myself, very exciting.
+My name is Sarah, I am a current Master of Geomatics for Environmental Management student at UBC. I have an Bachelor of Science degree from the University of Winnipeg in Environmental Science with a specialization in Forest Ecology. 

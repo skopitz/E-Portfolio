@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Sarah Kopitz",
+    "title": "Welcome",
     "section": "",
     "text": "My name is Sarah, I am a current Master of Geomatics for Environmental Management student at UBC. I have an Bachelor of Science degree from the University of Winnipeg in Environmental Science with a specialization in Forest Ecology."
   },
@@ -11,7 +11,7 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Education\n\nList your education here.\n\n\n\nWork Experience\n\nList work experience\n\n\n\nAwards & Honors\n\nList any scholarships, bursaries, etc."
+    "text": "Education\nMaster of Geomatics for Environmental Management (MGEM)\nUniversity of British Columbia (UBC)\n2025 – Present\nBachelor of Science (Environmental Studies / Specialization in Forest Ecology)\nUniversity of Winnipeg\nCompleted 2024\n\n\nWork Experience\nEnvironmental Co-op Student – Forestry Branch\nManitoba Hydro\nMay 2023 – April 2025\nTechnical Support Student – Property Department\nManitoba Hydro\nMay 2022 – April 2023\nSupervisor / Server / Bartender\nLeopold’s Tavern\nJune 2020 – May 2024\n\n\nResearch Experience\nUndergraduate Student Research Award (USRA) – NSERC\nUniversity of Winnipeg\nMay 2025 – August 2025\n\nResearched phosphorus dynamics in agricultural prairie streams and reviewed relevant literature\n\nAnalyzed spatial data to identify watershed characteristics related to phosphorus levels\n\nBuilt a geodatabase of environmental datasets and created documentation to communicate findings\n\nDeveloped an ArcGIS StoryMap as the final project output\n\n\n\nTechnical Skills\nGIS & Geospatial:\nArcGIS Pro, ArcMap, ArcGIS Online (AGOL), QGIS\nCoding & Automation:\nFME, ArcGIS ModelBuilder, Arcade, R, basic Python and SQL\nRemote Sensing:\nRaster analysis\nOther:\nData quality checks, workflow automation, map creation and design, Microsoft Office\n\n\nAwards & Honors\n\nIndigenous Graduate Fellowship (IGF), University of British Columbia (2025)\n\nNSERC Undergraduate Student Research Award (USRA), University of Winnipeg (2025)\n\nUniversity of Winnipeg / Indspire Indigenous Award – Undergraduate (2023, 2024)\nAcademic Proficiency Scholarship, University of Winnipeg (2023)\nDean’s Honour List – Student of Highest Distinction, University of Winnipeg (2023, 2024)\nDean’s Honour List – Student of Distinction, University of Winnipeg (2023)\n\n\n\nProfessional Organizations\n\nCanadian Institute of Forestry (April 2025 – Present)"
   },
   {
     "objectID": "publications.html",
@@ -58,7 +58,21 @@
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
-    "title": "Sarah Kopitz",
+    "title": "About me",
+    "section": "",
+    "text": "My name is Sarah, I am a current Master of Geomatics for Environmental Management student at UBC. I have an Bachelor of Science degree from the University of Winnipeg in Environmental Science with a specialization in Forest Ecology."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "projects",
+    "section": "",
+    "text": "Project 1 - Capstone Deliverables"
+  },
+  {
+    "objectID": "index.html#hi-im-sarah",
+    "href": "index.html#hi-im-sarah",
+    "title": "Welcome",
     "section": "",
     "text": "My name is Sarah, I am a current Master of Geomatics for Environmental Management student at UBC. I have an Bachelor of Science degree from the University of Winnipeg in Environmental Science with a specialization in Forest Ecology."
   }

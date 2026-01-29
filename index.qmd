@@ -1,5 +1,5 @@
 ---
-title: "Sarah Kopitz"
+title: "Welcome"
 image: images/IMG_9871.jpg
 about:
   template: trestles
@@ -16,7 +16,6 @@ about:
       href: mailto:snkopitz@gmail.com
 ---
 
-## About me
+## Hi, I’m Sarah
 
-
-My name is Sarah, I am a current Master of Geomatics for Environmental Management student at UBC. I have an Bachelor of Science degree from the University of Winnipeg in Environmental Science with a specialization in Forest Ecology. 
+My name is Sarah, I am a current Master of Geomatics for Environmental Management student at UBC. I have an Bachelor of Science degree from the University of Winnipeg in Environmental Science with a specialization in Forest Ecology.

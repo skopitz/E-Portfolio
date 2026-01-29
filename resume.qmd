@@ -4,14 +4,75 @@ title: "Resume"
 
 # Education
 
--   List your education here.
+**Master of Geomatics for Environmental Management (MGEM)**  
+University of British Columbia (UBC)  
+*2025 – Present*
+
+
+**Bachelor of Science (Environmental Studies / Specialization in Forest Ecology)**  
+University of Winnipeg  
+*Completed 2024*
+
 
 # Work Experience
 
--   List work experience
+**Environmental Co-op Student – Forestry Branch**  
+Manitoba Hydro  
+*May 2023 – April 2025*
+
+
+**Technical Support Student – Property Department**  
+Manitoba Hydro  
+*May 2022 – April 2023*
+
+
+**Supervisor / Server / Bartender**  
+Leopold’s Tavern  
+*June 2020 – May 2024*
+
+
+# Research Experience
+
+**Undergraduate Student Research Award (USRA) – NSERC**  
+University of Winnipeg  
+*May 2025 – August 2025*
+
+- Researched phosphorus dynamics in agricultural prairie streams and reviewed relevant literature  
+- Analyzed spatial data to identify watershed characteristics related to phosphorus levels  
+- Built a geodatabase of environmental datasets and created documentation to communicate findings  
+- Developed an ArcGIS StoryMap as the final project output  
+
+
+# Technical Skills
+
+**GIS & Geospatial:**  
+ArcGIS Pro, ArcMap, ArcGIS Online (AGOL), QGIS  
+
+**Coding & Automation:**  
+FME, ArcGIS ModelBuilder, Arcade, R, basic Python and SQL  
+
+**Remote Sensing:**  
+Raster analysis  
+
+**Other:**  
+Data quality checks, workflow automation, map creation and design, Microsoft Office  
+
+
+
+
 
 # Awards & Honors
 
--   List any scholarships, bursaries, etc.
+- **Indigenous Graduate Fellowship (IGF)**, University of British Columbia (2025)  
+- **NSERC Undergraduate Student Research Award (USRA)**, University of Winnipeg (2025)  
+- **University of Winnipeg / Indspire Indigenous Award – Undergraduate** (2023, 2024)
+- **Academic Proficiency Scholarship**, University of Winnipeg (2023)
+- **Dean’s Honour List – Student of Highest Distinction**, University of Winnipeg (2023, 2024)
+- **Dean’s Honour List – Student of Distinction**, University of Winnipeg (2023)
 
 
+
+
+# Professional Organizations
+
+- Canadian Institute of Forestry (April 2025 – Present)

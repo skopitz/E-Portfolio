@@ -29,6 +29,24 @@ This project focuses on post-fire spectral recovery using Landsat time series, u
 
 ---
 
+## Logging Change Proposal
+
+This proposal was developed for a landscape ecology and management course. The final project required outlining a clear landscape question, the spatial data to use, and an analysis plan using landscape metrics.
+
+The proposal examines how industrial logging patterns have changed over time in Forest Management License 3 (Duck Mountain, Manitoba) using Landsat-based disturbance data (NTEMS).
+
+**What I proposed**
+
+- Use NTEMS harvest disturbance data (1994–2022)
+- Reclass harvest-year layers into logged / not logged maps
+- Apply landscape metrics (PLAND, NP, AREA_MN/SD, CLUMPY)
+- Evaluate changes in patch number, patch size, and clustering
+- Interpret implications for landscape pattern and forest management
+
+[View proposal](files/KopitzS_GEM500FinalProposal_Dec62025.pdf)
+
+
+
 ## LiDAR Forest Modeling
 
 **Alex Fraser Research Forest**

@@ -4,4 +4,77 @@ title: "Publications"
 
 *Peer-reviewed publications:*
 
-Despite listing them on your resume, it may also be pertinent to create a seperate tab for publications and reports. As your career progresses, this list may become quite long, so be sure to organize things. You may want to point to 'most recent' publications, or categorize things by project/topic. 
+Despite listing them on your resume, it may also be pertinent to create a seperate tab for publications and reports. As your career progresses, this list may become quite long, so be sure to organize things. You may want to point to 'most recent' publications, or categorize things by project/topic.
+
+
+
+## FCOR 599 Capstone - Post-fire spectral recovery (NDVI / NBR)
+
+
+```{r leaflet, include = FALSE}
+library(dplyr); library(leaflet)
+
+m <- leaflet() %>%
+  addProviderTiles("Esri.WorldImagery") %>%
+  addScaleBar(position = c("bottomleft")) %>%
+  setView(-123.1207, 49.2827, zoom = 11)
+
+```
+
+```{r map, echo=FALSE}
+m
+```
+
+## LiDAR tree segmentation
+
+Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a 'tabset' in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let's showcase a function for calculating NDVI in R and Python.
+
+::: {.panel-tabset group="language"}
+## R
+
+``` (.r)
+calc_ndvi <- function(nir, red){
+  ndvi <- (nir-red)/(nir+red)
+  return(ndvi)
+}
+```
+
+(Assuming *nir* and *red* are terra rast objects)
+
+## Python
+
+``` (.python)
+def calc_ndvi(nir, red): 
+  ndvi = (nir - red)/(nir + red)
+  return(ndvi)
+```
+
+(Assuming *nir* and *red* are numpy arrays)
+:::
+
+## External links
+
+You can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:
+
+```{code}
+
+<iframe width="900" height="700"
+src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool">
+</iframe>
+```
+
+The full-screen GEE application is available [here](https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool) in case you're interested.
+
+(To use the GEE tool, navigate to any city you'd like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)
+
+```{=html}
+<iframe width="900" height="700" src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"></iframe>
+```
+
+
+
+
+
+
+
+

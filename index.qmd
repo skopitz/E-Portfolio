@@ -1,5 +1,6 @@
 ---
 title: "Welcome"
+toc: false
 image: images/IMG_9871.jpg
 about:
   template: trestles
@@ -16,6 +17,18 @@ about:
       href: mailto:snkopitz@gmail.com
 ---
 
-## Hi, I’m Sarah
 
-My name is Sarah, I am a current Master of Geomatics for Environmental Management student at UBC. I have an Bachelor of Science degree from the University of Winnipeg in Environmental Science with a specialization in Forest Ecology.
+## About me
+
+I’m Sarah Kopitz, a student in UBC’s Master of Geomatics for Environmental Management (MGEM) program. I’m interested in geomatics and environmental work — land, forests, water, animals, and people.
+
+I’ve always been interested in the land and the environment, and that’s why I chose to do a Bachelor of Science in Environmental Science (Specialization in Forest Ecology) at the University of Winnipeg. During my undergrad, I started getting more interested in geomatics and realized I liked the spatial side of environmental work.
+
+I like that geomatics can be both technical and creative. It gives me space to work through environmental questions while still thinking about how information is presented and understood.
+
+Indigenous rights and land are also important to me, and they influence how I think about environmental work and mapping.
+
+
+
+
+

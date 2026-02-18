@@ -11,13 +11,25 @@ website:
       - href: resume.qmd
         text: Resume
       - href: content.qmd
-        text: Content & Deliverables
+        text: Projects
 
 format:
   html:
     theme: darkly
-    css: styles.css
     toc: true
+    include-in-header:
+      text: |
+        <style>
+          hr {
+            border: none !important;
+            height: 6px !important;              /* thickness */
+            background-color: #ffffff !important; /* white line */
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+          }
+        </style>
 
 editor: visual
+
+
 

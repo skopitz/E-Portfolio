@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "My name is Sarah, I am a current Master of Geomatics for Environmental Management student at UBC. I have an Bachelor of Science degree from the University of Winnipeg in Environmental Science with a specialization in Forest Ecology."
+    "text": "I’m Sarah Kopitz, a student in UBC’s Master of Geomatics for Environmental Management (MGEM) program. I’m interested in geomatics and environmental work — land, forests, water, animals, and people.\nI’ve always been interested in the land and the environment, and that’s why I chose to do a Bachelor of Science in Environmental Science (Specialization in Forest Ecology) at the University of Winnipeg. During my undergrad, I started getting more interested in geomatics and realized I liked the spatial side of environmental work.\nI like that geomatics can be both technical and creative. It gives me space to work through environmental questions while still thinking about how information is presented and understood.\nIndigenous rights and land are also important to me, and they influence how I think about environmental work and mapping."
   },
   {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Education\nMaster of Geomatics for Environmental Management (MGEM)\nUniversity of British Columbia (UBC)\n2025 – Present\nBachelor of Science (Environmental Studies / Specialization in Forest Ecology)\nUniversity of Winnipeg\nCompleted 2024\n\n\nWork Experience\nEnvironmental Co-op Student – Forestry Branch\nManitoba Hydro\nMay 2023 – April 2025\nTechnical Support Student – Property Department\nManitoba Hydro\nMay 2022 – April 2023\nSupervisor / Server / Bartender\nLeopold’s Tavern\nJune 2020 – May 2024\n\n\nResearch Experience\nUndergraduate Student Research Award (USRA) – NSERC\nUniversity of Winnipeg\nMay 2025 – August 2025\n\nResearched phosphorus dynamics in agricultural prairie streams and reviewed relevant literature\n\nAnalyzed spatial data to identify watershed characteristics related to phosphorus levels\n\nBuilt a geodatabase of environmental datasets and created documentation to communicate findings\n\nDeveloped an ArcGIS StoryMap as the final project output\n\n\n\nTechnical Skills\nGIS & Geospatial:\nArcGIS Pro, ArcMap, ArcGIS Online (AGOL), QGIS\nCoding & Automation:\nFME, ArcGIS ModelBuilder, Arcade, R, basic Python and SQL\nRemote Sensing:\nRaster analysis\nOther:\nData quality checks, workflow automation, map creation and design, Microsoft Office\n\n\nAwards & Honors\n\nIndigenous Graduate Fellowship (IGF), University of British Columbia (2025)\n\nNSERC Undergraduate Student Research Award (USRA), University of Winnipeg (2025)\n\nUniversity of Winnipeg / Indspire Indigenous Award – Undergraduate (2023, 2024)\nAcademic Proficiency Scholarship, University of Winnipeg (2023)\nDean’s Honour List – Student of Highest Distinction, University of Winnipeg (2023, 2024)\nDean’s Honour List – Student of Distinction, University of Winnipeg (2023)\n\n\n\nProfessional Organizations\n\nCanadian Institute of Forestry (April 2025 – Present)"
+    "text": "Education\nMaster of Geomatics for Environmental Management (MGEM)\nUniversity of British Columbia (UBC)\n2025 – Present\nBachelor of Science (Environmental Science - Specialization in Forest Ecology)\nUniversity of Winnipeg\nCompleted 2024\n\n\n\nWork Experience\nEnvironmental Co-op Student – Forestry Branch\nManitoba Hydro\nMay 2023 – April 2025\n\nSupported the vegetation maintenance program using GIS tools such as FME and ArcGIS\nAutomated an annual vegetation analysis in FME, integrating multiple datasets and producing priority ranking lists for vegetation management across Manitoba\nCreated and maintained ArcGIS Online web maps and applications (Field Maps, Experience Builder and Dashboards)\nPerformed spatial data analysis and quality checks to support team\n\nTechnical Support Student – Property Department\nManitoba Hydro\nMay 2022 – April 2023\n\nPerformed spatial and tabular data checks to ensure accuracy and consistency across departmental datasets\nUsed ArcGIS Pro ModelBuilder to automate workflows for associating hydro line spatial data with budget estimates\nConducted data analysis using ESRI, Microsoft applications, and internal datasets\n\nSupervisor / Server / Bartender\nLeopold’s Tavern\nJune 2020 – May 2024\n\nCustomer service in a fast-paced environment\nManaged time effectively while balancing multiple tasks\nHandled cash, payments, and daily deposits with accuracy and responsibility\nResolved conflicts professionally with guests and staff\nOversaw opening and closing duties, including staff coordination and end-of-day reports\n\n\n\n\nResearch Experience\nUndergraduate Student Research Award (USRA) – NSERC\nUniversity of Winnipeg\nMay 2025 – August 2025\n\nResearched phosphorus dynamics in agricultural prairie streams and reviewed relevant literature\n\nAnalyzed spatial data to identify watershed characteristics related to phosphorus levels\n\nBuilt a geodatabase of environmental datasets and created documentation to communicate findings\n\nDeveloped an ArcGIS StoryMap as the final project output\n\n\n\n\nTechnical Skills\nGIS & Geospatial:\nArcGIS Pro, ArcMap, ArcGIS Online (AGOL), QGIS\nCoding & Automation:\nFME, ArcGIS ModelBuilder, Arcade, R, basic Python and SQL\nRemote Sensing:\nRaster analysis\nOther:\nData quality checks, workflow automation, map creation and design, Microsoft Office\n\n\n\nAwards & Honors\n\nIndigenous Graduate Fellowship (IGF), University of British Columbia (2025)\n\nNSERC Undergraduate Student Research Award (USRA), University of Winnipeg (2025)\n\nUniversity of Winnipeg / Indspire Indigenous Award – Undergraduate (2023, 2024)\nAcademic Proficiency Scholarship, University of Winnipeg (2023)\nDean’s Honour List – Student of Highest Distinction, University of Winnipeg (2023, 2024)\nDean’s Honour List – Student of Distinction, University of Winnipeg (2023)\n\n\n\n\nProfessional Organizations\n\nCanadian Institute of Forestry (April 2025 – Present)"
   },
   {
     "objectID": "publications.html",
@@ -30,37 +30,37 @@
   {
     "objectID": "content.html",
     "href": "content.html",
-    "title": "Content & Deliverables",
+    "title": "MGEM",
     "section": "",
-    "text": "This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen (“On this page”).\nIf you’ve produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.\n\n\nSample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here.\n\n\n\n\n\n\n\n\n\nSample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){\n  ndvi &lt;- (nir-red)/(nir+red)\n  return(ndvi)\n}\n(Assuming nir and red are terra rast objects)\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir - red)/(nir + red)\n  return(ndvi)\n(Assuming nir and red are numpy arrays)\n\n\n\n\n\n\nYou can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
+    "text": "This project focuses on post-fire spectral recovery using Landsat time series, using NDVI and NBR to describe how recovery changes over time after wildfire.\nWhat I did\n\nBuilt NDVI and NBR time series composites for the study area\nMapped burn severity using dNBR (pre- vs post-fire comparison)\nCalculated recovery metrics from the time series (Years to Recovery and recovery rate/slope)\nCompared recovery across burn severity classes and pre-fire land cover types\nProduced maps and summary figures to support interpretation\n\nView R code\n\n\n\n\nAlex Fraser Research Forest\nWhat I did\n\nBuilt a digital elevation model (DEM) and canopy height model (CHM) mosaic from LiDAR data\nModeled dominant height and above-ground biomass (AGB) using LiDAR metrics\nApplied the models wall-to-wall to produce continuous prediction surfaces across the study area\n\n\n\n\nMalcolm Knapp Research Forest\nWhat I did\n\nPrepared and normalized LiDAR data for tree-level analysis\nSegmented trees using li2012 (point-cloud) and dalponte2016 (CHM-based) methods\n\n\n\n\n\n\n\nNahmint Watershed, British Columbia\nThis project focused on defining Riparian Management Areas (RMAs) within a topographically complex watershed using a Digital Elevation Model (DEM) and hydrological tools.\nWhat I did\n\nProcessed a DEM to remove sinks and model flow direction and accumulation\n\nExtracted and classified stream networks using Strahler and Shreve ordering\n\nCalculated stream gradient and width to determine fish-bearing potential\n\nAssigned stream classes and applied Reserve and Management Zone buffers using Python field calculations\n\nDelineated watersheds and generated contour lines\n\nProduced a final map summarizing RMAs, stream networks, and terrain\n\nView final map"
   },
   {
     "objectID": "content.html#leaflet",
     "href": "content.html#leaflet",
-    "title": "Content & Deliverables",
+    "title": "Projects",
     "section": "",
     "text": "Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here."
   },
   {
     "objectID": "content.html#code-snippets",
     "href": "content.html#code-snippets",
-    "title": "Content & Deliverables",
+    "title": "Projects",
     "section": "",
     "text": "Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){\n  ndvi &lt;- (nir-red)/(nir+red)\n  return(ndvi)\n}\n(Assuming nir and red are terra rast objects)\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir - red)/(nir + red)\n  return(ndvi)\n(Assuming nir and red are numpy arrays)"
   },
   {
     "objectID": "content.html#external-links",
     "href": "content.html#external-links",
-    "title": "Content & Deliverables",
+    "title": "MGEM Projects",
     "section": "",
     "text": "You can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
-    "title": "About me",
+    "title": "Welcome",
     "section": "",
-    "text": "My name is Sarah, I am a current Master of Geomatics for Environmental Management student at UBC. I have an Bachelor of Science degree from the University of Winnipeg in Environmental Science with a specialization in Forest Ecology."
+    "text": "I’m Sarah Kopitz, a student in UBC’s Master of Geomatics for Environmental Management (MGEM) program. I’m interested in geomatics and environmental work — land, forests, water, animals, and people.\nI’ve always been interested in the land and the environment, and that’s why I chose to do a Bachelor of Science in Environmental Science (Specialization in Forest Ecology) at the University of Winnipeg. During my undergrad, I started getting more interested in geomatics and realized I liked the spatial side of environmental work.\nI like that geomatics can be both technical and creative. It gives me space to work through environmental questions while still thinking about how information is presented and understood.\nIndigenous rights and land are also important to me, and they influence how I think about environmental work and mapping."
   },
   {
     "objectID": "projects.html",
@@ -75,5 +75,89 @@
     "title": "Welcome",
     "section": "",
     "text": "My name is Sarah, I am a current Master of Geomatics for Environmental Management student at UBC. I have an Bachelor of Science degree from the University of Winnipeg in Environmental Science with a specialization in Forest Ecology."
+  },
+  {
+    "objectID": "content.html#lidar-tree-segmentation",
+    "href": "content.html#lidar-tree-segmentation",
+    "title": "MGEM Projects",
+    "section": "",
+    "text": "Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){\n  ndvi &lt;- (nir-red)/(nir+red)\n  return(ndvi)\n}\n(Assuming nir and red are terra rast objects)\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir - red)/(nir + red)\n  return(ndvi)\n(Assuming nir and red are numpy arrays)"
+  },
+  {
+    "objectID": "content.html#fcor-599-capstone---post-fire-spectral-recovery-ndvi-nbr",
+    "href": "content.html#fcor-599-capstone---post-fire-spectral-recovery-ndvi-nbr",
+    "title": "MGEM Projects",
+    "section": "",
+    "text": "This project focuses on post-fire spectral recovery using Landsat time series, using NDVI and NBR to describe how recovery changes over time after wildfire.\nWhat I did\n\nBuilt NDVI and NBR time series composites for the study area\nMapped burn severity using dNBR (pre- vs post-fire comparison)\nCalculated recovery metrics from the time series (Years to Recovery and recovery rate/slope)\nCompared recovery across burn severity classes and pre-fire land cover types\nProduced maps and summary figures to support interpretation\n\nView R code"
+  },
+  {
+    "objectID": "content.html#riparian-management-areas-stream-networks",
+    "href": "content.html#riparian-management-areas-stream-networks",
+    "title": "MGEM",
+    "section": "",
+    "text": "Nahmint Watershed, British Columbia\nThis project focused on defining Riparian Management Areas (RMAs) within a topographically complex watershed using a Digital Elevation Model (DEM) and hydrological tools.\nWhat I did\n\nProcessed a DEM to remove sinks and model flow direction and accumulation\n\nExtracted and classified stream networks using Strahler and Shreve ordering\n\nCalculated stream gradient and width to determine fish-bearing potential\n\nAssigned stream classes and applied Reserve and Management Zone buffers using Python field calculations\n\nDelineated watersheds and generated contour lines\n\nProduced a final map summarizing RMAs, stream networks, and terrain\n\nView final map"
+  },
+  {
+    "objectID": "content.html#lidar-modeling",
+    "href": "content.html#lidar-modeling",
+    "title": "MGEM",
+    "section": "",
+    "text": "Alex Fraser Research Forest\nWhat I did\n\nBuilt a digital elevation model (DEM) and canopy height model (CHM) mosaic from LiDAR data\nModeled dominant height and above-ground biomass (AGB) using LiDAR metrics\nApplied the models wall-to-wall to produce continuous prediction surfaces across the study area"
+  },
+  {
+    "objectID": "content.html#individual-tree-segmentation",
+    "href": "content.html#individual-tree-segmentation",
+    "title": "MGEM",
+    "section": "",
+    "text": "Malcolm Knapp Research Forest\nWhat I did\n\nPrepared and normalized LiDAR data for tree-level analysis\nSegmented trees using li2012 (point-cloud) and dalponte2016 (CHM-based) methods"
+  },
+  {
+    "objectID": "content.html#capstone---post-fire-spectral-recovery",
+    "href": "content.html#capstone---post-fire-spectral-recovery",
+    "title": "MGEM",
+    "section": "",
+    "text": "This project focuses on post-fire spectral recovery using Landsat time series, using NDVI and NBR to describe how recovery changes over time after wildfire.\nWhat I did\n\nBuilt NDVI and NBR time series composites for the study area\nMapped burn severity using dNBR (pre- vs post-fire comparison)\nCalculated recovery metrics from the time series (Years to Recovery and recovery rate/slope)\nCompared recovery across burn severity classes and pre-fire land cover types\nProduced maps and summary figures to support interpretation\n\nView R code"
+  },
+  {
+    "objectID": "content.html#undergraduate-project-usra-summer-2025",
+    "href": "content.html#undergraduate-project-usra-summer-2025",
+    "title": "MGEM",
+    "section": "Undergraduate Project — USRA (Summer 2025)",
+    "text": "Undergraduate Project — USRA (Summer 2025)\nMapping Factors Influencing Phosphorus in Manitoba Streams (Lake Winnipeg Watershed)\nPre-MGEM!\nPhosphorus is essential, but too much in freshwater can contribute to algae blooms and water quality issues. In this project, I mapped spatial factors linked to phosphorus loading in Manitoba’s portion of the Lake Winnipeg watershed.\nI built a geospatial layer set and grouped it into:\n\nSources (wastewater treatment sites, agricultural land, phosphorus contamination risk)\nTransport pathways (stream networks, waterbodies, drainage features like ditches/culverts)\nLandscape factors (soil texture/drainage, clay content, erosion risk, wetlands, slope)\n\nThe final deliverable is an ArcGIS StoryMap and web map that lets you explore how these risk factors overlap across the region.\nView the StoryMap"
+  },
+  {
+    "objectID": "content.html#capstone---spectral-recovery",
+    "href": "content.html#capstone---spectral-recovery",
+    "title": "MGEM",
+    "section": "",
+    "text": "This project focuses on post-fire spectral recovery using Landsat time series, using NDVI and NBR to describe how recovery changes over time after wildfire.\nWhat I did\n\nBuilt NDVI and NBR time series composites for the study area\nMapped burn severity using dNBR (pre- vs post-fire comparison)\nCalculated recovery metrics from the time series (Years to Recovery and recovery rate/slope)\nCompared recovery across burn severity classes and pre-fire land cover types\nProduced maps and summary figures to support interpretation\n\nView R code"
+  },
+  {
+    "objectID": "content.html#lidar-forest-modeling",
+    "href": "content.html#lidar-forest-modeling",
+    "title": "MGEM",
+    "section": "",
+    "text": "Alex Fraser Research Forest\nWhat I did\n\nBuilt a digital elevation model (DEM) and canopy height model (CHM) mosaic from LiDAR data\nModeled dominant height and above-ground biomass (AGB) using LiDAR metrics\nApplied the models wall-to-wall to produce continuous prediction surfaces across the study area"
+  },
+  {
+    "objectID": "content.html#stream-riparian-analysis",
+    "href": "content.html#stream-riparian-analysis",
+    "title": "MGEM",
+    "section": "",
+    "text": "Nahmint Watershed, British Columbia\nThis project focused on defining Riparian Management Areas (RMAs) within a topographically complex watershed using a Digital Elevation Model (DEM) and hydrological tools.\nWhat I did\n\nProcessed a DEM to remove sinks and model flow direction and accumulation\n\nExtracted and classified stream networks using Strahler and Shreve ordering\n\nCalculated stream gradient and width to determine fish-bearing potential\n\nAssigned stream classes and applied Reserve and Management Zone buffers using Python field calculations\n\nDelineated watersheds and generated contour lines\n\nProduced a final map summarizing RMAs, stream networks, and terrain\n\nView final map"
+  },
+  {
+    "objectID": "content.html#nserc-usra-research-project",
+    "href": "content.html#nserc-usra-research-project",
+    "title": "MGEM",
+    "section": "NSERC USRA Research Project",
+    "text": "NSERC USRA Research Project\nMapping Factors Influencing Phosphorus in Manitoba Streams (Lake Winnipeg Watershed)\nPre-MGEM!\nPhosphorus is essential, but too much in freshwater can contribute to algae blooms and water quality issues. In this project, I mapped spatial factors linked to phosphorus loading in Manitoba’s portion of the Lake Winnipeg watershed.\nI built a geospatial layer set and grouped it into:\n\nSources (wastewater treatment sites, agricultural land, phosphorus contamination risk)\nTransport pathways (stream networks, waterbodies, drainage features like ditches/culverts)\nLandscape factors (soil texture/drainage, clay content, erosion risk, wetlands, slope)\n\nThe final deliverable is an ArcGIS StoryMap and web map that lets you explore how these risk factors overlap across the region.\nView the StoryMap"
+  },
+  {
+    "objectID": "content.html#severity",
+    "href": "content.html#severity",
+    "title": "MGEM",
+    "section": "Severity",
+    "text": "Severity\nExample workflow used in the capstone project to classify burn severity from a dNBR raster.\n\nRPython\n\n\n# raster processing package\nlibrary(terra)\n\n# load dNBR raster\ndnbr &lt;- rast(\"dnbr.tif\")\n\n# reclassification matrix (from, to, class)\nrcl &lt;- matrix(c(\n  -Inf, 0.1, 1,   # unburned / low\n  0.1, 0.27, 2,   # low-moderate\n  0.27, 0.44, 3,  # moderate-high\n  0.44, Inf, 4),  # high\n  ncol = 3, byrow = TRUE)\n\n# classify dNBR into severity categories\nseverity &lt;- classify(dnbr, rcl)\n\n\n# numerical array operations\nimport numpy as np\n\n# create output array for severity classes\nseverity = np.zeros_like(dnbr)\n\n# reclassify dNBR values into severity categories\nseverity[(dnbr &lt;= 0.1)] = 1\nseverity[(dnbr &gt; 0.1) & (dnbr &lt;= 0.27)] = 2\nseverity[(dnbr &gt; 0.27) & (dnbr &lt;= 0.44)] = 3\nseverity[(dnbr &gt; 0.44)] = 4"
   }
 ]

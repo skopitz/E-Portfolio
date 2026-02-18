@@ -1,5 +1,11 @@
 ---
 title: "Resume"
+format: 
+  html:
+    toc: true
+    toc-location: left
+---
+
 ---
 
 # Education
@@ -9,10 +15,12 @@ University of British Columbia (UBC)
 *2025 – Present*
 
 
-**Bachelor of Science (Environmental Studies / Specialization in Forest Ecology)**  
+**Bachelor of Science (Environmental Science - Specialization in Forest Ecology)**  
 University of Winnipeg  
 *Completed 2024*
 
+
+---
 
 # Work Experience
 
@@ -20,15 +28,32 @@ University of Winnipeg
 Manitoba Hydro  
 *May 2023 – April 2025*
 
+- Supported the vegetation maintenance program using GIS tools such as FME and ArcGIS
+- Automated an annual vegetation analysis in FME, integrating multiple datasets and producing priority ranking lists for vegetation management across Manitoba
+- Created and maintained ArcGIS Online web maps and applications (Field Maps, Experience Builder and Dashboards)
+- Performed spatial data analysis and quality checks to support team
 
 **Technical Support Student – Property Department**  
 Manitoba Hydro  
 *May 2022 – April 2023*
 
+- Performed spatial and tabular data checks to ensure accuracy and consistency across departmental datasets
+- Used ArcGIS Pro ModelBuilder to automate workflows for associating hydro line spatial data with budget estimates
+- Conducted data analysis using ESRI, Microsoft applications, and internal datasets
+
 
 **Supervisor / Server / Bartender**  
 Leopold’s Tavern  
 *June 2020 – May 2024*
+
+- Customer service in a fast-paced environment
+- Managed time effectively while balancing multiple tasks
+- Handled cash, payments, and daily deposits with accuracy and responsibility
+- Resolved conflicts professionally with guests and staff
+- Oversaw opening and closing duties, including staff coordination and end-of-day reports
+
+
+---
 
 
 # Research Experience
@@ -41,6 +66,9 @@ University of Winnipeg
 - Analyzed spatial data to identify watershed characteristics related to phosphorus levels  
 - Built a geodatabase of environmental datasets and created documentation to communicate findings  
 - Developed an ArcGIS StoryMap as the final project output  
+
+
+---
 
 
 # Technical Skills
@@ -58,7 +86,7 @@ Raster analysis
 Data quality checks, workflow automation, map creation and design, Microsoft Office  
 
 
-
+---
 
 
 # Awards & Honors
@@ -71,7 +99,7 @@ Data quality checks, workflow automation, map creation and design, Microsoft Off
 - **Dean’s Honour List – Student of Distinction**, University of Winnipeg (2023)
 
 
-
+---
 
 # Professional Organizations
 

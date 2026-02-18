@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>content – Sarah Kopitz</title>
+<title>content – SARAH KOPITZ</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,10 +72,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0774fc528949661fb60d8774007a227f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-1395ecbabb14d2b10d9a19ddb90b4130.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -124,7 +124,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Sarah Kopitz</span>
+    <span class="navbar-title">SARAH KOPITZ</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -168,13 +168,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#individual-tree-segmentation" id="toc-individual-tree-segmentation" class="nav-link" data-scroll-target="#individual-tree-segmentation">Individual Tree Segmentation</a></li>
   <li><a href="#stream-riparian-analysis" id="toc-stream-riparian-analysis" class="nav-link" data-scroll-target="#stream-riparian-analysis">Stream &amp; Riparian Analysis</a></li>
   </ul></li>
+  <li><a href="#coding" id="toc-coding" class="nav-link" data-scroll-target="#coding">Coding</a></li>
   <li><a href="#other" id="toc-other" class="nav-link" data-scroll-target="#other">Other</a>
   <ul>
   <li><a href="#nserc-usra-research-project" id="toc-nserc-usra-research-project" class="nav-link" data-scroll-target="#nserc-usra-research-project">NSERC USRA Research Project</a></li>
-  </ul></li>
-  <li><a href="#coding" id="toc-coding" class="nav-link" data-scroll-target="#coding">Coding</a>
-  <ul>
-  <li><a href="#severity" id="toc-severity" class="nav-link" data-scroll-target="#severity">Severity</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -208,8 +205,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="logging-change-proposal" class="level2">
 <h2 class="anchored" data-anchor-id="logging-change-proposal">Logging Change Proposal</h2>
-<p>This proposal was developed for a landscape ecology and management course. The final project required outlining a clear landscape question, the spatial data to use, and an analysis plan using landscape metrics.</p>
-<p>The proposal examines how industrial logging patterns have changed over time in Forest Management License 3 (Duck Mountain, Manitoba) using Landsat-based disturbance data (NTEMS).</p>
+<p>This was a two-page proposal completed in a landscape ecology and management course. I outlined a landscape question and an analysis plan, and chose to use landscape metrics to describe how patterns could be measured.</p>
+<p>The proposal examines how industrial logging patterns have changed over time in Forest Management License 3 (Duck Mountain, Manitoba) using Landsat-based disturbance data (NTEMS; <a href="https://doi.org/10.1080/17538947.2016.1187673">doi:10.1080/17538947.2016.1187673</a>).</p>
 <p><strong>What I proposed</strong></p>
 <ul>
 <li>Use NTEMS harvest disturbance data (1994–2022)</li>
@@ -236,7 +233,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>What I did</strong></p>
 <ul>
 <li>Prepared and normalized LiDAR data for tree-level analysis</li>
-<li>Segmented trees using li2012 (point-cloud) and dalponte2016 (CHM-based) methods</li>
+<li>Segmented trees using <a href="https://doi.org/10.14358/PERS.78.1.75">Li et al.&nbsp;(2012)</a> point-cloud method and <a href="https://doi.org/10.1111/2041-210X.12575">Dalponte &amp; Coomes (2016)</a> CHM-based method</li>
 </ul>
 <iframe src="lidar_rgl.html" width="550" height="400" style="border:0; display:block; margin:0 auto;" scrolling="no">
 </iframe>
@@ -264,13 +261,86 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <hr>
 </section>
 </section>
+<section id="coding" class="level1">
+<h1>Coding</h1>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true" href="">Severity</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false" href="">Recovery Slope</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p>Example workflow used in the capstone project to classify burn severity from a dNBR raster.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="language">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Python</a></li></ul>
+<div class="tab-content" data-group="language">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(terra)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># load dNBR raster</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>dnbr <span class="ot">&lt;-</span> <span class="fu">rast</span>(<span class="st">"dnbr.tif"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># reclassification matrix</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>reclass <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="fu">c</span>(</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="sc">-</span><span class="cn">Inf</span>, <span class="fl">0.1</span>, <span class="dv">1</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fl">0.1</span>, <span class="fl">0.27</span>, <span class="dv">2</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fl">0.27</span>, <span class="fl">0.44</span>, <span class="dv">3</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fl">0.44</span>, <span class="cn">Inf</span>, <span class="dv">4</span>),</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">ncol =</span> <span class="dv">3</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>severity <span class="ot">&lt;-</span> <span class="fu">classify</span>(dnbr, reclass)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>severity <span class="op">=</span> np.zeros_like(dnbr)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>severity[(dnbr <span class="op">&lt;=</span> <span class="fl">0.1</span>)] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>severity[(dnbr <span class="op">&gt;</span> <span class="fl">0.1</span>) <span class="op">&amp;</span> (dnbr <span class="op">&lt;=</span> <span class="fl">0.27</span>)] <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>severity[(dnbr <span class="op">&gt;</span> <span class="fl">0.27</span>) <span class="op">&amp;</span> (dnbr <span class="op">&lt;=</span> <span class="fl">0.44</span>)] <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>severity[(dnbr <span class="op">&gt;</span> <span class="fl">0.44</span>)] <span class="op">=</span> <span class="dv">4</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<hr>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<p>Example workflow used to calculate post-fire NDVI recovery rate (linear slope through time).</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="language">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Python</a></li></ul>
+<div class="tab-content" data-group="language">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(terra)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>years <span class="ot">&lt;-</span> <span class="dv">2014</span><span class="sc">:</span><span class="dv">2023</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>calc_slope <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coef</span>(<span class="fu">lm</span>(x <span class="sc">~</span> years))[<span class="dv">2</span>]</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>ndvi_slope <span class="ot">&lt;-</span> <span class="fu">app</span>(ndvi_stack, calc_slope)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>years <span class="op">=</span> np.arange(<span class="dv">2014</span>, <span class="dv">2024</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calc_slope(pixel_series):</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.polyfit(years, pixel_series, <span class="dv">1</span>)[<span class="dv">0</span>]</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>ndvi_slope <span class="op">=</span> np.apply_along_axis(calc_slope, <span class="dv">0</span>, ndvi_stack)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+</section>
 <section id="other" class="level1">
 <h1>Other</h1>
 <section id="nserc-usra-research-project" class="level2">
 <h2 class="anchored" data-anchor-id="nserc-usra-research-project">NSERC USRA Research Project</h2>
 <p><strong>Mapping Factors Influencing Phosphorus in Manitoba Streams (Lake Winnipeg Watershed)</strong></p>
 <p><em>Pre-MGEM!</em></p>
-<p>Phosphorus is essential, but too much in freshwater can contribute to algae blooms and water quality issues. In this project, I mapped spatial factors linked to phosphorus loading in Manitoba’s portion of the Lake Winnipeg watershed.</p>
+<p>Phosphorus is essential, but too much in freshwater can contribute to algae blooms and water quality issues. In this project I mapped spatial factors linked to phosphorus loading in Manitoba’s portion of the Lake Winnipeg watershed.</p>
 <p>I built a geospatial layer set and grouped it into:</p>
 <ul>
 <li><strong>Sources</strong> (wastewater treatment sites, agricultural land, phosphorus contamination risk)</li>
@@ -279,49 +349,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>The final deliverable is an ArcGIS StoryMap and web map that lets you explore how these risk factors overlap across the region.</p>
 <p><a href="https://storymaps.arcgis.com/stories/1cda73ac2b7e4d15a8dac028ebd05219">View the StoryMap</a></p>
-</section>
-</section>
-<section id="coding" class="level1">
-<h1>Coding</h1>
-<section id="severity" class="level2">
-<h2 class="anchored" data-anchor-id="severity">Severity</h2>
-<p>Example workflow used in the capstone project to classify burn severity from a dNBR raster.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset" data-group="language">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Python</a></li></ul>
-<div class="tab-content" data-group="language">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># raster processing package</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(terra)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># load dNBR raster</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>dnbr <span class="ot">&lt;-</span> <span class="fu">rast</span>(<span class="st">"dnbr.tif"</span>)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># reclassification matrix (from, to, class)</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>rcl <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="fu">c</span>(</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="sc">-</span><span class="cn">Inf</span>, <span class="fl">0.1</span>, <span class="dv">1</span>,   <span class="co"># unburned / low</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fl">0.1</span>, <span class="fl">0.27</span>, <span class="dv">2</span>,   <span class="co"># low-moderate</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fl">0.27</span>, <span class="fl">0.44</span>, <span class="dv">3</span>,  <span class="co"># moderate-high</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fl">0.44</span>, <span class="cn">Inf</span>, <span class="dv">4</span>),  <span class="co"># high</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">ncol =</span> <span class="dv">3</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># classify dNBR into severity categories</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>severity <span class="ot">&lt;-</span> <span class="fu">classify</span>(dnbr, rcl)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># numerical array operations</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># create output array for severity classes</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>severity <span class="op">=</span> np.zeros_like(dnbr)</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># reclassify dNBR values into severity categories</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>severity[(dnbr <span class="op">&lt;=</span> <span class="fl">0.1</span>)] <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>severity[(dnbr <span class="op">&gt;</span> <span class="fl">0.1</span>) <span class="op">&amp;</span> (dnbr <span class="op">&lt;=</span> <span class="fl">0.27</span>)] <span class="op">=</span> <span class="dv">2</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>severity[(dnbr <span class="op">&gt;</span> <span class="fl">0.27</span>) <span class="op">&amp;</span> (dnbr <span class="op">&lt;=</span> <span class="fl">0.44</span>)] <span class="op">=</span> <span class="dv">3</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>severity[(dnbr <span class="op">&gt;</span> <span class="fl">0.44</span>)] <span class="op">=</span> <span class="dv">4</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</div>
-</div>
 
 
 </section>

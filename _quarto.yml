@@ -3,8 +3,10 @@ project:
   output-dir: C:\Users\skopitz.stu\OneDrive - UBC\Documents\GitHub\E-Portfolio
 
 website:
-  title: "Sarah Kopitz"
+  title: "SARAH KOPITZ"
   navbar:
+    background: light
+    foreground: dark
     left:
       - href: index.qmd
         text: Home
@@ -15,7 +17,7 @@ website:
 
 format:
   html:
-    theme: darkly
+    theme: sandstone
     toc: true
     include-in-header:
       text: |

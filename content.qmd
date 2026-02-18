@@ -7,10 +7,9 @@ format:
 editor: visual
 ---
 
+# MGEM
 
-# MGEM 
-
----
+------------------------------------------------------------------------
 
 ## Capstone - Spectral Recovery
 
@@ -18,34 +17,31 @@ This project focuses on post-fire spectral recovery using Landsat time series, u
 
 **What I did**
 
-- Built NDVI and NBR time series composites for the study area
-- Mapped burn severity using dNBR (pre- vs post-fire comparison)
-- Calculated recovery metrics from the time series (Years to Recovery and recovery rate/slope)
-- Compared recovery across burn severity classes and pre-fire land cover types
-- Produced maps and summary figures to support interpretation
+-   Built NDVI and NBR time series composites for the study area
+-   Mapped burn severity using dNBR (pre- vs post-fire comparison)
+-   Calculated recovery metrics from the time series (Years to Recovery and recovery rate/slope)
+-   Compared recovery across burn severity classes and pre-fire land cover types
+-   Produced maps and summary figures to support interpretation
 
 [View R code](capstone_recovery.html)
 
-
----
+------------------------------------------------------------------------
 
 ## Logging Change Proposal
 
-This proposal was developed for a landscape ecology and management course. The final project required outlining a clear landscape question, the spatial data to use, and an analysis plan using landscape metrics.
+This was a two-page proposal completed in a landscape ecology and management course. I outlined a landscape question and an analysis plan, and chose to use landscape metrics to describe how patterns could be measured.
 
-The proposal examines how industrial logging patterns have changed over time in Forest Management License 3 (Duck Mountain, Manitoba) using Landsat-based disturbance data (NTEMS).
+The proposal examines how industrial logging patterns have changed over time in Forest Management License 3 (Duck Mountain, Manitoba) using Landsat-based disturbance data (NTEMS; [doi:10.1080/17538947.2016.1187673](https://doi.org/10.1080/17538947.2016.1187673)).
 
 **What I proposed**
 
-- Use NTEMS harvest disturbance data (1994–2022)
-- Reclass harvest-year layers into logged / not logged maps
-- Apply landscape metrics (PLAND, NP, AREA_MN/SD, CLUMPY)
-- Evaluate changes in patch number, patch size, and clustering
-- Interpret implications for landscape pattern and forest management
+-   Use NTEMS harvest disturbance data (1994–2022)
+-   Reclass harvest-year layers into logged / not logged maps
+-   Apply landscape metrics (PLAND, NP, AREA_MN/SD, CLUMPY)
+-   Evaluate changes in patch number, patch size, and clustering
+-   Interpret implications for landscape pattern and forest management
 
 [View proposal](files/KopitzS_GEM500FinalProposal_Dec62025.pdf)
-
-
 
 ## LiDAR Forest Modeling
 
@@ -53,10 +49,9 @@ The proposal examines how industrial logging patterns have changed over time in 
 
 **What I did**
 
-- Built a digital elevation model (DEM) and canopy height model (CHM) mosaic from LiDAR data
-- Modeled dominant height and above-ground biomass (AGB) using LiDAR metrics
-- Applied the models wall-to-wall to produce continuous prediction surfaces across the study area
-
+-   Built a digital elevation model (DEM) and canopy height model (CHM) mosaic from LiDAR data
+-   Modeled dominant height and above-ground biomass (AGB) using LiDAR metrics
+-   Applied the models wall-to-wall to produce continuous prediction surfaces across the study area
 
 ## Individual Tree Segmentation
 
@@ -65,7 +60,7 @@ The proposal examines how industrial logging patterns have changed over time in 
 **What I did**
 
 - Prepared and normalized LiDAR data for tree-level analysis
-- Segmented trees using li2012 (point-cloud) and dalponte2016 (CHM-based) methods
+- Segmented trees using [Li et al. (2012)](https://doi.org/10.14358/PERS.78.1.75) point-cloud method and [Dalponte & Coomes (2016)](https://doi.org/10.1111/2041-210X.12575) CHM-based method
 
 ```{=html}
 <iframe src="lidar_rgl.html"
@@ -76,9 +71,7 @@ The proposal examines how industrial logging patterns have changed over time in 
 </iframe>
 ```
 
-
-
----
+------------------------------------------------------------------------
 
 ## Stream & Riparian Analysis
 
@@ -88,51 +81,20 @@ This project focused on defining Riparian Management Areas (RMAs) within a topog
 
 **What I did**
 
-- Processed a DEM to remove sinks and model flow direction and accumulation  
-- Extracted and classified stream networks using Strahler and Shreve ordering  
-- Calculated stream gradient and width to determine fish-bearing potential  
-- Assigned stream classes and applied Reserve and Management Zone buffers using Python field calculations  
-- Delineated watersheds and generated contour lines  
-- Produced a final map summarizing RMAs, stream networks, and terrain
+-   Processed a DEM to remove sinks and model flow direction and accumulation\
+-   Extracted and classified stream networks using Strahler and Shreve ordering\
+-   Calculated stream gradient and width to determine fish-bearing potential\
+-   Assigned stream classes and applied Reserve and Management Zone buffers using Python field calculations\
+-   Delineated watersheds and generated contour lines\
+-   Produced a final map summarizing RMAs, stream networks, and terrain
 
 [View final map](images/GEM511_Lab3_Map_SK.png)
 
-
-
-
----
-
-# Other
-
-## NSERC USRA Research Project
-
-
-**Mapping Factors Influencing Phosphorus in Manitoba Streams (Lake Winnipeg Watershed)**
-
-*Pre-MGEM!*
-
-Phosphorus is essential, but too much in freshwater can contribute to algae blooms and water quality issues. In this project, I mapped spatial factors linked to phosphorus loading in Manitoba’s portion of the Lake Winnipeg watershed.
-
-I built a geospatial layer set and grouped it into:
-
-- **Sources** (wastewater treatment sites, agricultural land, phosphorus contamination risk)
-- **Transport pathways** (stream networks, waterbodies, drainage features like ditches/culverts)
-- **Landscape factors** (soil texture/drainage, clay content, erosion risk, wetlands, slope)
-
-The final deliverable is an ArcGIS StoryMap and web map that lets you explore how these risk factors overlap across the region.
-
-[View the StoryMap](https://storymaps.arcgis.com/stories/1cda73ac2b7e4d15a8dac028ebd05219)
-
-
-
-
-
-
-
+------------------------------------------------------------------------
 
 # Coding
 
-
+::::: panel-tabset
 ## Severity
 
 Example workflow used in the capstone project to classify burn severity from a dNBR raster.
@@ -140,40 +102,91 @@ Example workflow used in the capstone project to classify burn severity from a d
 ::: {.panel-tabset group="language"}
 ### R
 
-```{.r}
-# raster processing package
+``` r
 library(terra)
 
 # load dNBR raster
 dnbr <- rast("dnbr.tif")
 
-# reclassification matrix (from, to, class)
-rcl <- matrix(c(
-  -Inf, 0.1, 1,   # unburned / low
-  0.1, 0.27, 2,   # low-moderate
-  0.27, 0.44, 3,  # moderate-high
-  0.44, Inf, 4),  # high
+# reclassification matrix
+reclass <- matrix(c(
+  -Inf, 0.1, 1,
+  0.1, 0.27, 2,
+  0.27, 0.44, 3,
+  0.44, Inf, 4),
   ncol = 3, byrow = TRUE)
 
-# classify dNBR into severity categories
-severity <- classify(dnbr, rcl)
+severity <- classify(dnbr, reclass)
 ```
-
-
 
 ### Python
 
-```{.python}
-# numerical array operations
+``` python
 import numpy as np
 
-# create output array for severity classes
 severity = np.zeros_like(dnbr)
 
-# reclassify dNBR values into severity categories
 severity[(dnbr <= 0.1)] = 1
 severity[(dnbr > 0.1) & (dnbr <= 0.27)] = 2
 severity[(dnbr > 0.27) & (dnbr <= 0.44)] = 3
 severity[(dnbr > 0.44)] = 4
 ```
 :::
+
+------------------------------------------------------------------------
+
+## Recovery Slope
+
+Example workflow used to calculate post-fire NDVI recovery rate (linear slope through time).
+
+::: {.panel-tabset group="language"}
+### R
+
+``` r
+library(terra)
+
+years <- 2014:2023
+
+calc_slope <- function(x) {
+  coef(lm(x ~ years))[2]
+}
+
+ndvi_slope <- app(ndvi_stack, calc_slope)
+```
+
+### Python
+
+``` python
+import numpy as np
+
+years = np.arange(2014, 2024)
+
+def calc_slope(pixel_series):
+    return np.polyfit(years, pixel_series, 1)[0]
+
+ndvi_slope = np.apply_along_axis(calc_slope, 0, ndvi_stack)
+```
+:::
+:::::
+
+------------------------------------------------------------------------
+
+# Other
+
+## NSERC USRA Research Project
+
+**Mapping Factors Influencing Phosphorus in Manitoba Streams (Lake Winnipeg Watershed)**
+
+*Pre-MGEM!*
+
+Phosphorus is essential, but too much in freshwater can contribute to algae blooms and water quality issues. In this project I mapped spatial factors linked to phosphorus loading in Manitoba’s portion of the Lake Winnipeg watershed.
+
+I built a geospatial layer set and grouped it into:
+
+-   **Sources** (wastewater treatment sites, agricultural land, phosphorus contamination risk)
+-   **Transport pathways** (stream networks, waterbodies, drainage features like ditches/culverts)
+-   **Landscape factors** (soil texture/drainage, clay content, erosion risk, wetlands, slope)
+
+The final deliverable is an ArcGIS StoryMap and web map that lets you explore how these risk factors overlap across the region.
+
+[View the StoryMap](https://storymaps.arcgis.com/stories/1cda73ac2b7e4d15a8dac028ebd05219)

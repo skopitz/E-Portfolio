@@ -9,9 +9,6 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/sarah-kopitz-7942623a2/
-    - icon: github
-      text: GitHub
-      href: https://github.com/skopitz 
     - icon: envelope-at
       text: Email
       href: mailto:snkopitz@gmail.com

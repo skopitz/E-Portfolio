@@ -1,23 +1,20 @@
 ---
-title: "Resume"
 format: 
   html:
     toc: true
     toc-location: left
 ---
 
----
-
 # Education
 
 **Master of Geomatics for Environmental Management (MGEM)**  
-University of British Columbia (UBC)  
+University of British Columbia 
 *2025 – Present*
 
 
 **Bachelor of Science (Environmental Science - Specialization in Forest Ecology)**  
 University of Winnipeg  
-*Completed 2024*
+*Completed 2025*
 
 
 ---

@@ -9,7 +9,7 @@ editor: visual
 
 # MGEM
 
-------------------------------------------------------------------------
+---
 
 ## Capstone - Spectral Recovery
 
@@ -23,15 +23,15 @@ This project focuses on post-fire spectral recovery using Landsat time series, u
 -   Compared recovery across burn severity classes and pre-fire land cover types
 -   Produced maps and summary figures to support interpretation
 
-[View R code](capstone_recovery.html)
+[View R code and project content](capstone_recovery.html)
 
-------------------------------------------------------------------------
+---
 
 ## Logging Change Proposal
 
 This was a two-page proposal completed in a landscape ecology and management course. I outlined a landscape question and an analysis plan, and chose to use landscape metrics to describe how patterns could be measured.
 
-The proposal examines how industrial logging patterns have changed over time in Forest Management License 3 (Duck Mountain, Manitoba) using Landsat-based disturbance data (NTEMS; [doi:10.1080/17538947.2016.1187673](https://doi.org/10.1080/17538947.2016.1187673)).
+The proposal examines how industrial logging patterns have changed over time in Forest Management License 3 (Duck Mountain, Manitoba) using Landsat-based disturbance data *([NTEMS](https://doi.org/10.1080/17538947.2016.1187673))*.
 
 **What I proposed**
 
@@ -43,6 +43,9 @@ The proposal examines how industrial logging patterns have changed over time in 
 
 [View proposal](files/KopitzS_GEM500FinalProposal_Dec62025.pdf)
 
+---
+
+
 ## LiDAR Forest Modeling
 
 **Alex Fraser Research Forest**
@@ -53,6 +56,12 @@ The proposal examines how industrial logging patterns have changed over time in 
 -   Modeled dominant height and above-ground biomass (AGB) using LiDAR metrics
 -   Applied the models wall-to-wall to produce continuous prediction surfaces across the study area
 
+[View R code](GEM521_Lab3_SK_eportfolio.html)
+
+
+---
+
+
 ## Individual Tree Segmentation
 
 **Malcolm Knapp Research Forest**
@@ -60,7 +69,9 @@ The proposal examines how industrial logging patterns have changed over time in 
 **What I did**
 
 - Prepared and normalized LiDAR data for tree-level analysis
-- Segmented trees using [Li et al. (2012)](https://doi.org/10.14358/PERS.78.1.75) point-cloud method and [Dalponte & Coomes (2016)](https://doi.org/10.1111/2041-210X.12575) CHM-based method
+- Segmented trees using *[Li et al. (2012)](https://doi.org/10.14358/PERS.78.1.75)* point-cloud method and *[Dalponte & Coomes (2016)](https://doi.org/10.1111/2041-210X.12575)* CHM-based method
+
+[View R code](GEM521_Lab4_SK.html)
 
 ```{=html}
 <iframe src="lidar_rgl.html"
@@ -71,7 +82,7 @@ The proposal examines how industrial logging patterns have changed over time in 
 </iframe>
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Stream & Riparian Analysis
 
@@ -90,7 +101,7 @@ This project focused on defining Riparian Management Areas (RMAs) within a topog
 
 [View final map](images/GEM511_Lab3_Map_SK.png)
 
-------------------------------------------------------------------------
+---
 
 # Coding
 
@@ -133,7 +144,7 @@ severity[(dnbr > 0.44)] = 4
 ```
 :::
 
-------------------------------------------------------------------------
+---
 
 ## Recovery Slope
 
@@ -169,7 +180,7 @@ ndvi_slope = np.apply_along_axis(calc_slope, 0, ndvi_stack)
 :::
 :::::
 
-------------------------------------------------------------------------
+---
 
 # Other
 

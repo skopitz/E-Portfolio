@@ -23,15 +23,15 @@ This project focuses on post-fire spectral recovery using Landsat time series, u
 -   Compared recovery across burn severity classes and pre-fire land cover types
 -   Produced maps and summary figures to support interpretation
 
-[View R code and project content](capstone_recovery.html)
+**[VIEW R CODE AND PROJECT CONTENT](capstone_recovery.html)**
 
 ---
 
 ## Logging Change Proposal
 
-This was a two-page proposal completed in a landscape ecology and management course. I outlined a landscape question and an analysis plan, and chose to use landscape metrics to describe how patterns could be measured.
+This was a two page proposal completed in a landscape ecology and management course. I outlined a landscape question and analysis plan and chose to use landscape metrics to describe how patterns could be measured.
 
-The proposal examines how industrial logging patterns have changed over time in Forest Management License 3 (Duck Mountain, Manitoba) using Landsat-based disturbance data *([NTEMS](https://doi.org/10.1080/17538947.2016.1187673))*.
+The proposal examines how industrial logging patterns have changed over time in Forest Management License 3 (Duck Mountain, Manitoba) using Landsat based disturbance data *([NTEMS](https://doi.org/10.1080/17538947.2016.1187673))*.
 
 **What I proposed**
 
@@ -41,22 +41,24 @@ The proposal examines how industrial logging patterns have changed over time in 
 -   Evaluate changes in patch number, patch size, and clustering
 -   Interpret implications for landscape pattern and forest management
 
-[View proposal](files/KopitzS_GEM500FinalProposal_Dec62025.pdf)
+**[VIEW PROPOSAL](files/KopitzS_GEM500FinalProposal_Dec62025.pdf)**
 
 ---
 
 
 ## LiDAR Forest Modeling
 
-**Alex Fraser Research Forest**
+**Alex Fraser Research Forest, British Columbia**
+
+This project focused on developing a suite of forest structural products from airborne lidar data. The goal was to move from raw point cloud data to forest metrics and mapped predictions across the study area.
 
 **What I did**
 
--   Built a digital elevation model (DEM) and canopy height model (CHM) mosaic from LiDAR data
--   Modeled dominant height and above-ground biomass (AGB) using LiDAR metrics
+-   Built a digital elevation model (DEM) and canopy height model (CHM) mosaic from Lidar data
+-   Modeled dominant height and above-ground biomass (AGB) using Lidar metrics
 -   Applied the models wall-to-wall to produce continuous prediction surfaces across the study area
 
-[View R code](GEM521_Lab3_SK_eportfolio.html)
+**[VIEW R CODE](GEM521_Lab3_SK_eportfolio.html)**
 
 
 ---
@@ -64,23 +66,32 @@ The proposal examines how industrial logging patterns have changed over time in 
 
 ## Individual Tree Segmentation
 
-**Malcolm Knapp Research Forest**
+**Malcolm Knapp Research Forest, British Columbia**
+
+This project focused on detecting and segmenting individual trees from LiDAR data using two different approaches.
 
 **What I did**
 
 - Prepared and normalized LiDAR data for tree-level analysis
 - Segmented trees using *[Li et al. (2012)](https://doi.org/10.14358/PERS.78.1.75)* point-cloud method and *[Dalponte & Coomes (2016)](https://doi.org/10.1111/2041-210X.12575)* CHM-based method
 
-[View R code](GEM521_Lab4_SK.html)
+**[VIEW R CODE](GEM521_Lab4_SK.html)**
 
 ```{=html}
-<iframe src="lidar_rgl.html"
-        width="550"
-        height="400"
-        style="border:0; display:block; margin:0 auto;"
-        scrolling="no">
-</iframe>
+<figure style="text-align:center;">
+  <iframe src="lidar_rgl.html"
+          width="550"
+          height="400"
+          style="border:0; display:block; margin:0 auto;"
+          scrolling="no">
+  </iframe>
+  <figcaption style="margin-top:10px;">
+    3D visualization of Dalponte (2016) individual tree segmentation at 0.5 m CHM resolution.
+  </figcaption>
+</figure>
 ```
+
+
 
 ---
 
@@ -99,7 +110,7 @@ This project focused on defining Riparian Management Areas (RMAs) within a topog
 -   Delineated watersheds and generated contour lines\
 -   Produced a final map summarizing RMAs, stream networks, and terrain
 
-[View final map](images/GEM511_Lab3_Map_SK.png)
+**[VIEW FINAL MAP](images/GEM511_Lab3_Map_SK.png)**
 
 ---
 
@@ -114,68 +125,68 @@ Example workflow used in the capstone project to classify burn severity from a d
 ### R
 
 ``` r
+# load the terra package (used for raster data)
 library(terra)
 
-# load dNBR raster
+# load dNBR raster - creates a SpatRaster object
 dnbr <- rast("dnbr.tif")
 
 # reclassification matrix
 reclass <- matrix(c(
-  -Inf, 0.1, 1,
-  0.1, 0.27, 2,
-  0.27, 0.44, 3,
-  0.44, Inf, 4),
-  ncol = 3, byrow = TRUE)
+  -Inf, 0.1, 1,    # values less than or equal to 0.10 get class 1
+  0.1, 0.27, 2,    # values >0.10 and <=0.27 get class 2
+  0.27, 0.44, 3,   # values >0.27 and <=0.44 get class 3
+  0.44, Inf, 4),   # values >0.44 get class 4
+  ncol = 3, byrow = TRUE)   # three columns: from, to, class
 
+# apply the reclassification
 severity <- classify(dnbr, reclass)
 ```
 
 ### Python
 
 ``` python
+# import NumPy (used for numerical array operations)
 import numpy as np
 
+# create an output array called 'severity'
+# with same shape as dnbr, with all values initialized to 0
 severity = np.zeros_like(dnbr)
 
+# reclassify continuous dNBR values into discrete severity classes
 severity[(dnbr <= 0.1)] = 1
 severity[(dnbr > 0.1) & (dnbr <= 0.27)] = 2
 severity[(dnbr > 0.27) & (dnbr <= 0.44)] = 3
 severity[(dnbr > 0.44)] = 4
+
+# after this 'severity' is a classified raster array
 ```
 :::
 
 ---
 
-## Recovery Slope
+## Change Detection (BFAST)
 
-Example workflow used to calculate post-fire NDVI recovery rate (linear slope through time).
+Example of converting NDVI values to a time series object and applying BFAST to detect structural breaks in vegetation dynamics.
 
 ::: {.panel-tabset group="language"}
 ### R
 
 ``` r
-library(terra)
+# load the bfast package (used for time-series change detection)
+library(bfast)
 
-years <- 2014:2023
+# convert NDVI values into a time series object
+ndvi_ts <- ts(ndvi_values,  # vector of NDVI values in date order
+              frequency = 23,  # observations per year (16-day product)
+              start = c(2001, 1)) # starting year
 
-calc_slope <- function(x) {
-  coef(lm(x ~ years))[2]
-}
+# run BFAST monitoring to detect structural breaks
+bfm <- bfastmonitor(ndvi_ts,
+                    start = c(2008, 1)) # begin monitoring 1st observation in 2008
 
-ndvi_slope <- app(ndvi_stack, calc_slope)
-```
-
-### Python
-
-``` python
-import numpy as np
-
-years = np.arange(2014, 2024)
-
-def calc_slope(pixel_series):
-    return np.polyfit(years, pixel_series, 1)[0]
-
-ndvi_slope = np.apply_along_axis(calc_slope, 0, ndvi_stack)
+# extract the estimated breakpoint year
+bfm$breakpoint
 ```
 :::
 :::::
@@ -200,4 +211,4 @@ I built a geospatial layer set and grouped it into:
 
 The final deliverable is an ArcGIS StoryMap and web map that lets you explore how these risk factors overlap across the region.
 
-[View the StoryMap](https://storymaps.arcgis.com/stories/1cda73ac2b7e4d15a8dac028ebd05219)
+**[VIEW THE STORYMAP](https://storymaps.arcgis.com/stories/1cda73ac2b7e4d15a8dac028ebd05219)**

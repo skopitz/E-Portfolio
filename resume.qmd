@@ -77,7 +77,7 @@ ArcGIS Pro, ArcMap, ArcGIS Online (AGOL), QGIS
 FME, ArcGIS ModelBuilder, Arcade, R, basic Python and SQL  
 
 **Remote Sensing:**  
-Raster analysis  
+Multispectral imagery, LiDAR data, time series analysis, raster processing 
 
 **Other:**  
 Data quality checks, workflow automation, map creation and design, Microsoft Office  

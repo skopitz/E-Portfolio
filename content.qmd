@@ -209,6 +209,6 @@ I built a geospatial layer set and grouped it into:
 -   **Transport pathways** (stream networks, waterbodies, drainage features like ditches/culverts)
 -   **Landscape factors** (soil texture/drainage, clay content, erosion risk, wetlands, slope)
 
-The final deliverable is an ArcGIS StoryMap and web map that lets you explore how these risk factors overlap across the region.
+The final deliverable is an ArcGIS StoryMap and web map that lets you explore how these potential risk factors overlap across the region.
 
 **[VIEW THE STORYMAP](https://storymaps.arcgis.com/stories/1cda73ac2b7e4d15a8dac028ebd05219)**

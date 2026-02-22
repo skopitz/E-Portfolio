@@ -25,7 +25,7 @@ University of Winnipeg
 Manitoba Hydro  
 *May 2023 – April 2025*
 
-- Supported the vegetation maintenance program using GIS tools such as FME and ArcGIS
+- Supported the utility vegetation maintenance team.
 - Automated an annual vegetation analysis in FME, integrating multiple datasets and producing priority ranking lists for vegetation management across Manitoba
 - Created and maintained ArcGIS Online web maps and applications (Field Maps, Experience Builder and Dashboards)
 - Performed spatial data analysis and quality checks to support team

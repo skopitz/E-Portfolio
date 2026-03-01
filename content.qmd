@@ -116,6 +116,8 @@ This project focused on defining Riparian Management Areas (RMAs) within a topog
 
 ## Forest Cutblock Analysis - Python
 
+**Central British Columbia**
+
 This team based final project for a Python course focused on analyzing forest harvest cutblocks using spatial data processing and visualization techniques. The objective was to explore temporal and spatial harvest patterns and document the workflow in a reproducible notebook format.
 
 **What we did**

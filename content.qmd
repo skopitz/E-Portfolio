@@ -114,6 +114,24 @@ This project focused on defining Riparian Management Areas (RMAs) within a topog
 
 ---
 
+## Forest Cutblock Analysis - Python
+
+This team based final project for a Python course focused on analyzing forest harvest cutblocks using spatial data processing and visualization techniques. The objective was to explore temporal and spatial harvest patterns and document the workflow in a reproducible notebook format.
+
+**What we did**
+
+-   Prepared and cleaned spatial datasets  
+-   Analyzed harvest patterns over time  
+-   Produced maps and summary visualizations  
+-   Organized and documented the final notebook workflow   
+
+**[VIEW NOTEBOOK](ALangWong_GKulkarni_SKopitz_Cutblocks.html)**
+
+
+---
+
+
+
 # Coding
 
 A few short coding examples are shown below. More complete workflows are linked within the project sections above.

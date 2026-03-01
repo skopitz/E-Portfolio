@@ -13,7 +13,7 @@ editor: visual
 
 ## Capstone - Spectral Recovery
 
-This project focuses on post-fire spectral recovery using Landsat time series, using NDVI and NBR to describe how recovery changes over time after wildfire.
+This project examines post-fire spectral recovery using Landsat time series. NDVI and NBR were used to describe how vegetation recovery changes over time after wildfire.
 
 **What I did**
 
@@ -115,6 +115,8 @@ This project focused on defining Riparian Management Areas (RMAs) within a topog
 ---
 
 # Coding
+
+A few short coding examples are shown below. More complete workflows are linked within the project sections above.
 
 ::::: panel-tabset
 ## Severity

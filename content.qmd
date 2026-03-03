@@ -13,6 +13,8 @@ editor: visual
 
 ## Capstone - Spectral Recovery
 
+**Northern Manitoba**
+
 This project examines post-fire spectral recovery using Landsat time series. Normalized difference vegetation index (NDVI) and normalized burn ratio (NBR) were used to describe how vegetation recovery changes over time after wildfire.
 
 **What I did**
@@ -28,6 +30,8 @@ This project examines post-fire spectral recovery using Landsat time series. Nor
 ---
 
 ## Logging Change Proposal
+
+**Duck Mountain, Manitoba**
 
 This was a two page proposal completed in a landscape ecology and management course. I outlined a landscape question and analysis plan and chose to use landscape metrics to describe how patterns could be measured.
 

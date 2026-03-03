@@ -31,7 +31,7 @@ Worked with the utility vegetation management team on a range of GIS, mapping, a
 Manitoba Hydro  
 *May 2022 – April 2023*
 
-Provided GIS and data support within the Property Department. I reviewed and cleaned spatial and tabular datasets, ran analyses in ArcGIS Pro, and supported property-related work. One example was using ArcGIS Pro ModelBuilder to link hydro line spatial data with property information for tracking and budget estimating.
+Provided GIS and data support within the Property Department. I reviewed and cleaned spatial and tabular datasets, ran analyses in ArcGIS Pro, and supported property-related work. One example was using ArcGIS Pro ModelBuilder to link hydro line spatial data with property information and environmental datasets for tracking and budget estimating automation.
 
 
 **Supervisor / Server / Bartender**  

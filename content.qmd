@@ -234,3 +234,12 @@ I built a geospatial layer set and grouped it into:
 The final deliverable is an ArcGIS StoryMap and web map that lets you explore how these potential risk factors overlap across the region.
 
 **[VIEW THE STORYMAP](https://storymaps.arcgis.com/stories/1cda73ac2b7e4d15a8dac028ebd05219)**
+
+
+## Early GIS Project - Global Beer Price Map
+
+**University of Winnipeg**
+
+This was the final map from the first GIS course I ever took. The course that introduced me to GIS in the first place. For the final project we could choose any topic as long as it showed what we learned throughout the term. I mapped average beer prices around the world because I want to travel more and I like the occasional beer. After this course, I knew GIS was something I wanted to keep doing and it’s been a big interest of mine ever since!
+
+**[VIEW MAP](images/first_map_project.png)**

@@ -13,13 +13,13 @@ editor: visual
 
 ## Capstone - Spectral Recovery
 
-This project examines post-fire spectral recovery using Landsat time series. NDVI and NBR were used to describe how vegetation recovery changes over time after wildfire.
+This project examines post-fire spectral recovery using Landsat time series. Normalized difference vegetation index (NDVI) and normalized burn ratio (NBR) were used to describe how vegetation recovery changes over time after wildfire.
 
 **What I did**
 
 -   Built NDVI and NBR time series composites for the study area
 -   Mapped burn severity using dNBR (pre- vs post-fire comparison)
--   Calculated recovery metrics from the time series (Years to Recovery and recovery rate/slope)
+-   Calculated recovery metrics from the time series (years to recovery and recovery rate/slope)
 -   Compared recovery across burn severity classes and pre-fire land cover types
 -   Produced maps and summary figures to support interpretation
 
@@ -106,9 +106,9 @@ This project focused on defining Riparian Management Areas (RMAs) within a topog
 -   Processed a DEM to remove sinks and model flow direction and accumulation\
 -   Extracted and classified stream networks using Strahler and Shreve ordering\
 -   Calculated stream gradient and width to determine fish-bearing potential\
--   Assigned stream classes and applied Reserve and Management Zone buffers using Python field calculations\
+-   Assigned stream classes and applied reserve and management zone buffers using python field calculations\
 -   Delineated watersheds and generated contour lines\
--   Produced a final map summarizing RMAs, stream networks, and terrain
+-   Produced a final map summarizing riparian management areas, stream networks, and terrain
 
 **[VIEW FINAL MAP](images/GEM511_Lab3_Map_SK.png)**
 
@@ -217,6 +217,8 @@ bfm$breakpoint
 
 # Other
 
+---
+
 ## NSERC USRA Research Project
 
 **Mapping Factors Influencing Phosphorus in Manitoba Streams (Lake Winnipeg Watershed)**
@@ -235,6 +237,8 @@ The final deliverable is an ArcGIS StoryMap and web map that lets you explore ho
 
 **[VIEW THE STORYMAP](https://storymaps.arcgis.com/stories/1cda73ac2b7e4d15a8dac028ebd05219)**
 
+
+---
 
 ## Early GIS Project - Global Beer Price Map
 

@@ -19,7 +19,7 @@ about:
 
 I’m Sarah Kopitz, a student in the Master of Geomatics for Environmental Management (MGEM) program at the University of British Columbia. I’m interested in environmental work that connects land, forests, water, wildlife, and people.
 
-I completed a BSc in Environmental Science (Specialization in Forest Ecology) at the University of Winnipeg. During my undergrad, I became drawn to the spatial side of environmental work.
+I completed a BSc in Environmental Science (Specialization in Forest Ecology) at the University of Winnipeg. During my undergrad I became drawn to the spatial side of environmental work.
 
 Geomatics stands out to me because it’s both technical and creative. I enjoy problem solving, building workflows, and finding clear ways to communicate results through maps and visuals.
 

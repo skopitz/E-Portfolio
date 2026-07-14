@@ -163,7 +163,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#mgem" id="toc-mgem" class="nav-link active" data-scroll-target="#mgem">MGEM</a>
   <ul>
-  <li><a href="#capstone---spectral-recovery" id="toc-capstone---spectral-recovery" class="nav-link" data-scroll-target="#capstone---spectral-recovery">Capstone - Spectral Recovery</a></li>
+  <li><a href="#capstone---post-fire-spectral-recovery-in-northern-manitoba" id="toc-capstone---post-fire-spectral-recovery-in-northern-manitoba" class="nav-link" data-scroll-target="#capstone---post-fire-spectral-recovery-in-northern-manitoba">Capstone - Post-Fire Spectral Recovery in Northern Manitoba</a></li>
   <li><a href="#logging-change-proposal" id="toc-logging-change-proposal" class="nav-link" data-scroll-target="#logging-change-proposal">Logging Change Proposal</a></li>
   <li><a href="#lidar-forest-modeling" id="toc-lidar-forest-modeling" class="nav-link" data-scroll-target="#lidar-forest-modeling">LiDAR Forest Modeling</a></li>
   <li><a href="#individual-tree-segmentation" id="toc-individual-tree-segmentation" class="nav-link" data-scroll-target="#individual-tree-segmentation">Individual Tree Segmentation</a></li>
@@ -171,10 +171,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#forest-cutblock-analysis---python" id="toc-forest-cutblock-analysis---python" class="nav-link" data-scroll-target="#forest-cutblock-analysis---python">Forest Cutblock Analysis - Python</a></li>
   </ul></li>
   <li><a href="#coding" id="toc-coding" class="nav-link" data-scroll-target="#coding">Coding</a></li>
-  <li><a href="#other" id="toc-other" class="nav-link" data-scroll-target="#other">Other</a>
+  <li><a href="#other-pre-mgem" id="toc-other-pre-mgem" class="nav-link" data-scroll-target="#other-pre-mgem">Other (pre-MGEM!)</a>
   <ul>
   <li><a href="#nserc-usra-research-project" id="toc-nserc-usra-research-project" class="nav-link" data-scroll-target="#nserc-usra-research-project">NSERC USRA Research Project</a></li>
   <li><a href="#early-gis-project---global-beer-price-map" id="toc-early-gis-project---global-beer-price-map" class="nav-link" data-scroll-target="#early-gis-project---global-beer-price-map">Early GIS Project - Global Beer Price Map</a></li>
+  <li><a href="#managing-wildfire-risk-after-mountain-pine-beetle" id="toc-managing-wildfire-risk-after-mountain-pine-beetle" class="nav-link" data-scroll-target="#managing-wildfire-risk-after-mountain-pine-beetle">Managing Wildfire Risk After Mountain Pine Beetle</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -192,19 +193,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="mgem" class="level1">
 <h1>MGEM</h1>
 <hr>
-<section id="capstone---spectral-recovery" class="level2">
-<h2 class="anchored" data-anchor-id="capstone---spectral-recovery">Capstone - Spectral Recovery</h2>
-<p><strong>Northern Manitoba</strong></p>
-<p>This project examines post-fire spectral recovery using Landsat time series. Normalized difference vegetation index (NDVI) and normalized burn ratio (NBR) were used to describe how vegetation recovery changes over time after wildfire.</p>
+<section id="capstone---post-fire-spectral-recovery-in-northern-manitoba" class="level2">
+<h2 class="anchored" data-anchor-id="capstone---post-fire-spectral-recovery-in-northern-manitoba">Capstone - Post-Fire Spectral Recovery in Northern Manitoba</h2>
+<p><strong>University of British Columbia, MGEM Capstone</strong> (<a href="https://doi.org/10.5683/SP3/MO1W5K">doi</a>)</p>
+<p>This capstone examined vegetation recovery following a 2013 wildfire complex that burned about 168,837 hectares in the Boreal Shield of northern Manitoba, near Gillam and nearby First Nations and Northern Affairs communities. Using Landsat surface reflectance imagery from 2010 to 2023, I looked at how burn severity and pre-fire land cover influenced recovery patterns over the first decade after the fire.</p>
 <p><strong>What I did</strong></p>
 <ul>
-<li>Built NDVI and NBR time series composites for the study area</li>
-<li>Mapped burn severity using dNBR (pre- vs post-fire comparison)</li>
-<li>Calculated recovery metrics from the time series (years to recovery and recovery rate/slope)</li>
-<li>Compared recovery across burn severity classes and pre-fire land cover types</li>
-<li>Produced maps and summary figures to support interpretation</li>
+<li>Built annual vegetation index time series from Landsat imagery</li>
+<li>Mapped burn severity using a pre-fire and post-fire satellite comparison</li>
+<li>Calculated recovery rate and estimated years to recovery</li>
+<li>Compared recovery across burn severity classes and pre-fire land-cover types</li>
+<li>Created maps, graphs, and summary figures to communicate the results</li>
 </ul>
-<p><strong><a href="capstone_recovery.html">VIEW R CODE AND PROJECT CONTENT</a></strong></p>
+<p><strong><a href="capstone_recovery.html">VIEW R CODE AND PROJECT CONTENT</a></strong><br>
+<strong><a href="files/Kopitz_Wildfire_Recovery_Final_Paper.pdf">VIEW PAPER</a></strong></p>
 <hr>
 </section>
 <section id="logging-change-proposal" class="level2">
@@ -243,7 +245,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>What I did</strong></p>
 <ul>
 <li>Prepared and normalized LiDAR data for tree-level analysis</li>
-<li>Segmented trees using <em><a href="https://doi.org/10.14358/PERS.78.1.75">Li et al.&nbsp;(2012)</a></em> point-cloud method and <em><a href="https://doi.org/10.1111/2041-210X.12575">Dalponte &amp; Coomes (2016)</a></em> CHM-based method</li>
+<li>Segmented trees using <em><a href="https://doi.org/10.14358/PERS.78.1.75">Li et al.&nbsp;(2012)</a></em> point-cloud method and <em><a href="https://doi.org/10.1111/2041-210X.12575">Dalponte &amp; Coomes (2016)</a></em> Canopy Height Model(CHM) - based method</li>
 </ul>
 <p><strong><a href="GEM521_Lab4_SK.html">VIEW R CODE</a></strong></p>
 <figure style="text-align:center;" class="figure">
@@ -371,13 +373,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <hr>
 </section>
-<section id="other" class="level1">
-<h1>Other</h1>
+<section id="other-pre-mgem" class="level1">
+<h1>Other (pre-MGEM!)</h1>
 <hr>
 <section id="nserc-usra-research-project" class="level2">
 <h2 class="anchored" data-anchor-id="nserc-usra-research-project">NSERC USRA Research Project</h2>
 <p><strong>Mapping Factors Influencing Phosphorus in Manitoba Streams (Lake Winnipeg Watershed)</strong></p>
-<p><em>Pre-MGEM!</em></p>
+<p><em>University of Winnipeg - water quality lab</em></p>
 <p>Phosphorus is essential, but too much in freshwater can contribute to algae blooms and water quality issues. In this project I mapped spatial factors linked to phosphorus loading in Manitoba’s portion of the Lake Winnipeg watershed.</p>
 <p>I built a geospatial layer set and grouped it into:</p>
 <ul>
@@ -394,6 +396,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>University of Winnipeg</strong></p>
 <p>This was the final map from the first GIS course I ever took. The course that introduced me to GIS in the first place. For the final project we could choose any topic as long as it showed what we learned throughout the term. I mapped average beer prices around the world because I want to travel more and I like the occasional beer. After this course, I knew GIS was something I wanted to keep doing and it’s been a big interest of mine ever since!</p>
 <p><strong><a href="images/first_map_project.png">VIEW MAP</a></strong></p>
+<hr>
+</section>
+<section id="managing-wildfire-risk-after-mountain-pine-beetle" class="level2">
+<h2 class="anchored" data-anchor-id="managing-wildfire-risk-after-mountain-pine-beetle">Managing Wildfire Risk After Mountain Pine Beetle</h2>
+<p><strong>University of Winnipeg</strong></p>
+<p>This paper was written for a course during my undergrad, where I researched a topic related to forest health and protection, presented on it, and then wrote this paper. It looks at how wildfire risk changes over time following mountain pine beetle (MPB) outbreaks, and evaluates three management strategies used to reduce that risk: prescribed burning, mechanical thinning, and salvage logging. It draws on two BC case studies, the Mitchell Ridge prescribed burn and Central Chilcotin Rehabilitation Ltd.’s Indigenous-led forest recovery work, to look at how effective each strategy is depending on timing and local conditions.</p>
+<p><strong><a href="files/Kopitz_FinalPaper_ForestProtection_UPDATED.pdf">VIEW PAPER</a></strong></p>
 
 
 </section>

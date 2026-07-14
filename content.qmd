@@ -11,21 +11,22 @@ editor: visual
 
 ---
 
-## Capstone - Spectral Recovery
+## Capstone - Post-Fire Spectral Recovery in Northern Manitoba
 
-**Northern Manitoba**
+**University of British Columbia, MGEM Capstone** ([doi link](https://doi.org/10.5683/SP3/MO1W5K))
 
-This project examines post-fire spectral recovery using Landsat time series. Normalized difference vegetation index (NDVI) and normalized burn ratio (NBR) were used to describe how vegetation recovery changes over time after wildfire.
+This capstone examined vegetation recovery following a 2013 wildfire complex that burned about 168,837 hectares in the Boreal Shield of northern Manitoba, near Gillam and nearby First Nations and Northern Affairs communities. Using Landsat surface reflectance imagery from 2010 to 2023, I looked at how burn severity and pre-fire land cover influenced recovery patterns over the first decade after the fire.
 
 **What I did**
 
--   Built NDVI and NBR time series composites for the study area
--   Mapped burn severity using dNBR (pre- vs post-fire comparison)
--   Calculated recovery metrics from the time series (years to recovery and recovery rate/slope)
--   Compared recovery across burn severity classes and pre-fire land cover types
--   Produced maps and summary figures to support interpretation
+-   Built annual vegetation index time series from Landsat imagery
+-   Mapped burn severity using a pre-fire and post-fire satellite comparison
+-   Calculated recovery rate and estimated years to recovery
+-   Compared recovery across burn severity classes and pre-fire land-cover types
+-   Created maps, graphs, and summary figures to communicate the results
 
-**[VIEW R CODE AND PROJECT CONTENT](capstone_recovery.html)**
+**[VIEW R CODE AND PROJECT CONTENT](capstone_recovery.html)**\
+**[VIEW PAPER](files/Kopitz_Wildfire_Recovery_Final_Paper.pdf)**
 
 ---
 
@@ -77,7 +78,7 @@ This project focused on detecting and segmenting individual trees from LiDAR dat
 **What I did**
 
 - Prepared and normalized LiDAR data for tree-level analysis
-- Segmented trees using *[Li et al. (2012)](https://doi.org/10.14358/PERS.78.1.75)* point-cloud method and *[Dalponte & Coomes (2016)](https://doi.org/10.1111/2041-210X.12575)* CHM-based method
+- Segmented trees using *[Li et al. (2012)](https://doi.org/10.14358/PERS.78.1.75)* point-cloud method and *[Dalponte & Coomes (2016)](https://doi.org/10.1111/2041-210X.12575)* Canopy Height Model(CHM) - based method
 
 **[VIEW R CODE](GEM521_Lab4_SK.html)**
 
@@ -219,7 +220,7 @@ bfm$breakpoint
 
 ---
 
-# Other
+# Other (pre-MGEM!)
 
 ---
 
@@ -227,7 +228,7 @@ bfm$breakpoint
 
 **Mapping Factors Influencing Phosphorus in Manitoba Streams (Lake Winnipeg Watershed)**
 
-*Pre-MGEM!*
+*University of Winnipeg - water quality lab*
 
 Phosphorus is essential, but too much in freshwater can contribute to algae blooms and water quality issues. In this project I mapped spatial factors linked to phosphorus loading in Manitoba’s portion of the Lake Winnipeg watershed.
 
@@ -251,3 +252,13 @@ The final deliverable is an ArcGIS StoryMap and web map that lets you explore ho
 This was the final map from the first GIS course I ever took. The course that introduced me to GIS in the first place. For the final project we could choose any topic as long as it showed what we learned throughout the term. I mapped average beer prices around the world because I want to travel more and I like the occasional beer. After this course, I knew GIS was something I wanted to keep doing and it’s been a big interest of mine ever since!
 
 **[VIEW MAP](images/first_map_project.png)**
+
+---
+
+## Managing Wildfire Risk After Mountain Pine Beetle
+
+**University of Winnipeg**
+
+This paper was written for a course during my undergrad, where I researched a topic related to forest health and protection, presented on it, and then wrote this paper. It looks at how wildfire risk changes over time following mountain pine beetle (MPB) outbreaks, and evaluates three management strategies used to reduce that risk: prescribed burning, mechanical thinning, and salvage logging. It draws on two BC case studies, the Mitchell Ridge prescribed burn and Central Chilcotin Rehabilitation Ltd.'s Indigenous-led forest recovery work, to look at how effective each strategy is depending on timing and local conditions.
+
+**[VIEW PAPER](files/Kopitz_FinalPaper_ForestProtection_UPDATED.pdf)**
